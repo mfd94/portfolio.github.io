@@ -5,6 +5,9 @@ body{
     background-image: url(bleu.jpg);
     background-size: 100%;
 }
+
+@media screen and (max-width : 1350px)
+{
 h1{
     text-align: center;
     color: white;
@@ -121,8 +124,7 @@ nav > ul > li:hover a{
 nav input[=type=checkbox]:checked ~ ul{
     display: block;
 }
-@media screen and (max-width : 680px)
-{
+
     .menu-mobile{
         display: block;
         color: #FFF;
@@ -191,8 +193,8 @@ label{
 .position1{
     text-align: center;
     margin-top: -9vh;
-    border-right: 2px solid white;
-    margin-left: ;
+    border-right: 0px solid white;
+    
 }
 
 .map{
@@ -200,4 +202,5 @@ label{
     margin-top: -11vh;
     padding-right: 30px;
 
+}
 }
