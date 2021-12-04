@@ -121,7 +121,8 @@ nav > ul > li:hover a{
 nav input[=type=checkbox]:checked ~ ul{
     display: block;
 }
-@media screen and (max-width : 890px){
+@media screen and (max-width : 680px)
+{
     .menu-mobile{
         display: block;
         color: #FFF;
