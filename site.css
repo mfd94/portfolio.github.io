@@ -2,7 +2,7 @@ body{
     font-family: Verdana, Calibri, sans-serif;
     margin: 0px;
     padding: 0px;
-    background-image: url(fd1.jpg);
+    background-image: url(bleu.jpg);
     background-size: 100%;
 }
 h1{
@@ -30,7 +30,7 @@ nav input[type=checkbox]{
 }
 nav{
     width: 100%;
-    background-color: #C4C4C4;
+    background-color: #03224c;
 }
 nav > ul > li{
     float: left;
@@ -55,50 +55,73 @@ nav li:hover .submenu{
     top: 100%;
     left: 0px;
     padding: 0px;
-    z-index: 100000;
+    z-index: 100000px;
 }
 .submenu li{
     border-bottom: 1px solid #CCC;
+    width: 90%;
 }
 .submenu li a{
     padding: 15px 30px;
     font-size: 13px;
-    color: #blue;
+    color: blue;
     width: 270px;
 }
 nav > ul > li:hover a{
     padding: 15px 30px 20px 30px;
 }
 .menu-metiers .submenu{
-    background-color: #00EEFF ;
+  background-color: #191970;
 }
 .menu-travaux .submenu{
-    background-color: #FFF300 ;
+  background-color: #191970;
 }
 .menu-tp .submenu{
-    background-color: blue;
+   background-color: #191970;
 }
 
 .menu-java .submenu{
-    background-color: green;
+    background-color: #191970;
 }
+
+.menu-ppe .submenu{
+    background-color: #191970;
+}
+
+.menu-sql .submenu{
+
+    background-color: #191970;
+}
+
 .submenu li:hover a{
     color: #EEE;
     font-weight: bold;
 }
 .menu-metiers .submenu li:hover{
-    background-color: #FFAB81 ;
+    background-color: lightblue;
 }
 .menu-travaux .submenu li:hover{
-    background-color: black;
+    background-color: lightblue;
 }
 .menu-tp .submenu li:hover{
-    background-color: #81C8FF;
+    background-color: lightblue;
 }
+
+.menu-java .submenu li:hover{
+    background-color: lightblue;
+}
+.menu-ppe .submenu li:hover{
+    background-color: lightblue;
+}
+
+.menu-sql .submenu li:hover{
+    background-color: lightblue;
+}
+
 nav input[=type=checkbox]:checked ~ ul{
     display: block;
 }
-@media screen and (max-width : 680px){
+@media screen and (max-width : 890px){
     .menu-mobile{
         display: block;
         color: #FFF;
@@ -111,8 +134,9 @@ nav input[=type=checkbox]:checked ~ ul{
     }
 }
     nav ul li, nav ul li a{
-        width: 100%;
-        text-align: center;
+        width: 15%;
+        padding-left: 30px;
+        text-align: left;
     }
     nav ul li a, nav ul li:hover a{
         padding: 10px 0px 10px 0px;
@@ -124,4 +148,55 @@ nav input[=type=checkbox]:checked ~ ul{
 
 h1{
     color: skyblue;
+}
+
+.d1{
+    width: 1300px;
+    height: 700px;
+    margin: 50px auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: fondu 30s ease-in-out infinite both;
+}
+
+.conteneur{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+@keyframes fondu{
+    0%{background-image: url("diapo1.jpg");}
+    33.33%{background-image: url("diapo2.jpg");}
+    66.67%{background-image: url("diapo3.jfif");}
+    100%{background-image: url("diapo1.jpg");}
+}
+
+
+
+label{
+    color: white;
+    text-decoration: underline;
+}
+
+.pmoi{
+    color: white;
+}
+
+
+
+.contact1{
+    border:  3px solid midnightblue;
+}
+.position1{
+    text-align: center;
+    margin-top: -9vh;
+    border-right: 2px solid white;
+    margin-left: ;
+}
+
+.map{
+    text-align: right;
+    margin-top: -11vh;
+    padding-right: 30px;
+
 }

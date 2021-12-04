@@ -1,7 +1,14 @@
+body{
+	background-color: dimgray;
+}
+
+
+
 .stg{
 
 	font-size: 1.9em;
-	color: blue;
+	color: red;
+
 }
 
 .mail{

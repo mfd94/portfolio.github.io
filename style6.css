@@ -33,9 +33,9 @@ body{
 .photo{
 	border: 0px solid;
 	float: right;
-	padding: 1px;
-	margin: auto;
+	margin: 1px;
 	height: 250px;
+
 
 }
 .formation{
@@ -123,6 +123,8 @@ body{
 h2{
 	text-decoration: underline;
 	color: royalblue;
+	margin-top: 40px;
+
 }
 
 .p1{
